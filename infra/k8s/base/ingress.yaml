@@ -1,0 +1,17 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: round-robin-app
+spec:
+  ingressClassName: nginx
+  rules:
+    - host: app.127.0.0.1.nip.io
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: round-robin-app
+                port:
+                  number: 80

@@ -1,0 +1,6 @@
+apiVersion: v2
+name: round-robin
+description: Local-first platform chart for the DevOps Round Robin workbook
+type: application
+version: 0.1.0
+appVersion: "0.1.0"

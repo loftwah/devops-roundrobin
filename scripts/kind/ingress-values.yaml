@@ -1,0 +1,20 @@
+controller:
+  kind: DaemonSet
+  ingressClassResource:
+    default: true
+  hostPort:
+    enabled: true
+  service:
+    type: ClusterIP
+  nodeSelector:
+    ingress-ready: "true"
+    kubernetes.io/os: linux
+  tolerations:
+    - key: node-role.kubernetes.io/control-plane
+      operator: Exists
+      effect: NoSchedule
+    - key: node-role.kubernetes.io/master
+      operator: Exists
+      effect: NoSchedule
+defaultBackend:
+  enabled: true

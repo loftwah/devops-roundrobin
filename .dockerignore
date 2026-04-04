@@ -1,0 +1,13 @@
+.git
+.gitignore
+.env
+.env.local
+.direnv
+.DS_Store
+bin
+dist
+tmp
+terraform.tfstate
+terraform.tfstate.*
+.terraform
+

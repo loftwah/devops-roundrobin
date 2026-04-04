@@ -1,0 +1,8 @@
+kube_context         = "kind-round-robin"
+namespace            = "round-robin"
+monitoring_namespace = "monitoring"
+ingress_host         = "app.127.0.0.1.nip.io"
+grafana_host         = "grafana.127.0.0.1.nip.io"
+prometheus_host      = "prometheus.127.0.0.1.nip.io"
+enable_monitoring    = false
+install_ingress      = false
