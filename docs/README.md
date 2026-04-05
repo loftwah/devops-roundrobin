@@ -8,6 +8,7 @@ Use these in order if you want the least distracting path.
 2. [Start-to-Finish Walkthrough](01-walkthrough/01-start-to-finish.md)
 3. [Checkpoint Questions](01-walkthrough/02-checkpoint-questions.md)
 4. [What You Just Proved](01-walkthrough/03-what-you-just-proved.md)
+5. [Exercises and Challenges](01-walkthrough/04-exercises-and-challenges.md)
 
 ## Reference
 

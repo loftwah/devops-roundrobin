@@ -31,6 +31,7 @@ If you want a lower-distraction path with setup help, walkthroughs, recovery ste
 - [Start-to-Finish Walkthrough](docs/01-walkthrough/01-start-to-finish.md)
 - [Checkpoint Questions](docs/01-walkthrough/02-checkpoint-questions.md)
 - [What You Just Proved](docs/01-walkthrough/03-what-you-just-proved.md)
+- [Exercises and Challenges](docs/01-walkthrough/04-exercises-and-challenges.md)
 - [When You Get Stuck](docs/02-reference/01-when-stuck.md)
 - [Concepts, What, Why, When](docs/02-reference/02-concepts-and-why.md)
 - [Federated Identity and SSO](docs/02-reference/03-federated-identity-and-sso.md)

@@ -8,6 +8,8 @@ Keep [Checkpoint Questions](02-checkpoint-questions.md) open if you want quick s
 
 Keep [What You Just Proved](03-what-you-just-proved.md) open if you want each phase translated into "what changed, what it proved, what file to read next, and where to look first if it breaks."
 
+Use [Exercises and Challenges](04-exercises-and-challenges.md) when you want the same repo turned into realistic tickets, debugging drills, and change tasks closer to day-to-day DevOps work.
+
 ## How to use this guide
 
 - stay inside `nix develop`
