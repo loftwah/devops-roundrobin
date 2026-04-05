@@ -75,7 +75,7 @@ compose-ps: ## Show Docker Compose service status
 kind-up: env-check ## Create the kind cluster and local registry wiring
 	./scripts/kind/create-cluster.sh
 
-kind-down: env-check ## Delete the kind cluster
+kind-down: env-check ## Delete the kind cluster and local registry
 	./scripts/kind/delete-cluster.sh
 
 kind-load: env-check docker-build ## Load local images into the kind cluster

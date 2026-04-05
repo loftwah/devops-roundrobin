@@ -398,6 +398,12 @@ make kind-down
 make compose-down
 ```
 
+Expected:
+
+- the `kind` cluster is deleted
+- the local `kind-registry` container is removed
+- the Docker Compose stack is stopped
+
 Then rebuild:
 
 ```bash

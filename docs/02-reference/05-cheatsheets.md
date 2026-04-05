@@ -99,7 +99,7 @@ Create cluster:
 make kind-up
 ```
 
-Delete cluster:
+Delete cluster and local registry:
 
 ```bash
 make kind-down
