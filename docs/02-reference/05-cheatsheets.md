@@ -10,15 +10,15 @@ Use cheatsheets for recall, not for blind execution.
 
 If you do not know what a command is changing, stop and read:
 
-- [Concepts, What, Why, When](/Users/deanlofts/gits/devops-roundrobin/docs/02-reference/02-concepts-and-why.md)
-- [When You Get Stuck](/Users/deanlofts/gits/devops-roundrobin/docs/02-reference/01-when-stuck.md)
+- [Concepts, What, Why, When](02-concepts-and-why.md)
+- [When You Get Stuck](01-when-stuck.md)
 
 ## Repo and toolchain
 
 Enter the pinned toolchain:
 
 ```bash
-cd /Users/deanlofts/gits/devops-roundrobin
+cd /path/to/devops-roundrobin
 cp .env.example .env
 nix develop
 make bootstrap
@@ -382,7 +382,7 @@ Use these questions before you touch config:
 
 ## Best companions to this cheatsheet
 
-- [Start-to-Finish Walkthrough](/Users/deanlofts/gits/devops-roundrobin/docs/01-walkthrough/01-start-to-finish.md)
-- [When You Get Stuck](/Users/deanlofts/gits/devops-roundrobin/docs/02-reference/01-when-stuck.md)
-- [Federated Identity and SSO](/Users/deanlofts/gits/devops-roundrobin/docs/02-reference/03-federated-identity-and-sso.md)
-- [From URL to Rendered Page](/Users/deanlofts/gits/devops-roundrobin/docs/02-reference/04-from-url-to-rendered-page.md)
+- [Start-to-Finish Walkthrough](../01-walkthrough/01-start-to-finish.md)
+- [When You Get Stuck](01-when-stuck.md)
+- [Federated Identity and SSO](03-federated-identity-and-sso.md)
+- [From URL to Rendered Page](04-from-url-to-rendered-page.md)

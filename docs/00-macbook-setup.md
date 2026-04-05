@@ -19,7 +19,7 @@ Use:
 
 That is the cleanest path because:
 
-- the toolchain is pinned in [`flake.nix`](/Users/deanlofts/gits/devops-roundrobin/flake.nix)
+- the toolchain is pinned in [`flake.nix`](../flake.nix)
 - you avoid version drift
 - you avoid global installs fighting each other
 - the repo becomes portable between machines
@@ -121,7 +121,7 @@ The repo defaults to:
 - `localhost:5432` for Postgres
 - `localhost:6379` for Redis
 
-If your Mac already has either service running, override these in [`.env.example`](/Users/deanlofts/gits/devops-roundrobin/.env.example) after copying it to `.env`:
+If your Mac already has either service running, override these in [`.env.example`](../.env.example) after copying it to `.env`:
 
 ```bash
 POSTGRES_HOST_PORT=15432
@@ -130,7 +130,7 @@ REDIS_HOST_PORT=16379
 
 ### kind node image pin
 
-The repo pins `KIND_NODE_IMAGE` in [`.env.example`](/Users/deanlofts/gits/devops-roundrobin/.env.example).
+The repo pins `KIND_NODE_IMAGE` in [`.env.example`](../.env.example).
 
 Why:
 
@@ -144,7 +144,7 @@ Override it only if you deliberately want to test a newer Kubernetes version.
 When you come back to the repo later:
 
 ```bash
-cd /Users/deanlofts/gits/devops-roundrobin
+cd /path/to/devops-roundrobin
 nix develop
 make help
 ```
@@ -199,11 +199,11 @@ pwd
 Should be:
 
 ```text
-/Users/deanlofts/gits/devops-roundrobin
+/path/to/devops-roundrobin
 ```
 
 Primary entry points:
 
-- [`Makefile`](/Users/deanlofts/gits/devops-roundrobin/Makefile)
-- [`README.md`](/Users/deanlofts/gits/devops-roundrobin/README.md)
-- [`flake.nix`](/Users/deanlofts/gits/devops-roundrobin/flake.nix)
+- [`Makefile`](../Makefile)
+- [`README.md`](../README.md)
+- [`flake.nix`](../flake.nix)

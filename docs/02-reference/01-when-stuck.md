@@ -120,7 +120,7 @@ docker ps
 kind get clusters
 ```
 
-This repo pins a known-good node image in [`.env.example`](/Users/deanlofts/gits/devops-roundrobin/.env.example). Do not change it unless you are debugging kind itself.
+This repo pins a known-good node image in [`.env.example`](../../.env.example). Do not change it unless you are debugging kind itself.
 
 ### `kubectl` cannot connect
 
@@ -234,8 +234,8 @@ Then confirm:
 
 Read:
 
-- [`infra/terraform/modules/platform/main.tf`](/Users/deanlofts/gits/devops-roundrobin/infra/terraform/modules/platform/main.tf)
-- [`infra/helm/round-robin/values.yaml`](/Users/deanlofts/gits/devops-roundrobin/infra/helm/round-robin/values.yaml)
+- [`infra/terraform/modules/platform/main.tf`](../../infra/terraform/modules/platform/main.tf)
+- [`infra/helm/round-robin/values.yaml`](../../infra/helm/round-robin/values.yaml)
 
 Remember:
 

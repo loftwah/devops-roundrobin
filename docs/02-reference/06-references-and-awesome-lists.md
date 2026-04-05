@@ -146,10 +146,10 @@ Your goal is:
 
 If you only use a few, use these:
 
-1. [Start-to-Finish Walkthrough](/Users/deanlofts/gits/devops-roundrobin/docs/01-walkthrough/01-start-to-finish.md)
-2. [Cheatsheets](/Users/deanlofts/gits/devops-roundrobin/docs/02-reference/05-cheatsheets.md)
-3. [When You Get Stuck](/Users/deanlofts/gits/devops-roundrobin/docs/02-reference/01-when-stuck.md)
-4. [Federated Identity and SSO](/Users/deanlofts/gits/devops-roundrobin/docs/02-reference/03-federated-identity-and-sso.md)
-5. [From URL to Rendered Page](/Users/deanlofts/gits/devops-roundrobin/docs/02-reference/04-from-url-to-rendered-page.md)
+1. [Start-to-Finish Walkthrough](../01-walkthrough/01-start-to-finish.md)
+2. [Cheatsheets](05-cheatsheets.md)
+3. [When You Get Stuck](01-when-stuck.md)
+4. [Federated Identity and SSO](03-federated-identity-and-sso.md)
+5. [From URL to Rendered Page](04-from-url-to-rendered-page.md)
 6. [awesome-sre](https://github.com/dastergon/awesome-sre)
 7. [awesome-networking](https://github.com/nyquist/awesome-networking)

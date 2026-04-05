@@ -23,7 +23,7 @@ What to know cold:
 
 Good local mapping in this repo:
 
-- the SSO and federation mental model is covered in [`03-federated-identity-and-sso.md`](/Users/deanlofts/gits/devops-roundrobin/docs/02-reference/03-federated-identity-and-sso.md)
+- the SSO and federation mental model is covered in [`03-federated-identity-and-sso.md`](03-federated-identity-and-sso.md)
 
 Missing from the repo before you join a new AWS-heavy team:
 

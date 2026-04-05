@@ -40,9 +40,9 @@ find . -maxdepth 3 -type f | sort
 
 Read:
 
-- [`README.md`](/Users/deanlofts/gits/devops-roundrobin/README.md)
-- [`Makefile`](/Users/deanlofts/gits/devops-roundrobin/Makefile)
-- [`compose.yaml`](/Users/deanlofts/gits/devops-roundrobin/compose.yaml)
+- [`README.md`](../../README.md)
+- [`Makefile`](../../Makefile)
+- [`compose.yaml`](../../compose.yaml)
 
 What you are learning:
 
@@ -299,10 +299,10 @@ That is core production work.
 
 Read:
 
-- [`infra/terraform/environments/local/main.tf`](/Users/deanlofts/gits/devops-roundrobin/infra/terraform/environments/local/main.tf)
-- [`infra/terraform/modules/namespace/main.tf`](/Users/deanlofts/gits/devops-roundrobin/infra/terraform/modules/namespace/main.tf)
-- [`infra/terraform/modules/platform/main.tf`](/Users/deanlofts/gits/devops-roundrobin/infra/terraform/modules/platform/main.tf)
-- [`infra/terraform/modules/monitoring/main.tf`](/Users/deanlofts/gits/devops-roundrobin/infra/terraform/modules/monitoring/main.tf)
+- [`infra/terraform/environments/local/main.tf`](../../infra/terraform/environments/local/main.tf)
+- [`infra/terraform/modules/namespace/main.tf`](../../infra/terraform/modules/namespace/main.tf)
+- [`infra/terraform/modules/platform/main.tf`](../../infra/terraform/modules/platform/main.tf)
+- [`infra/terraform/modules/monitoring/main.tf`](../../infra/terraform/modules/monitoring/main.tf)
 
 What, why, when:
 
@@ -435,6 +435,6 @@ You are ready when you can do these without hesitation:
 
 Read next:
 
-- [Stuck Guide](/Users/deanlofts/gits/devops-roundrobin/docs/02-reference/01-when-stuck.md)
-- [Concepts and Why](/Users/deanlofts/gits/devops-roundrobin/docs/02-reference/02-concepts-and-why.md)
-- [Incident Playbooks](/Users/deanlofts/gits/devops-roundrobin/docs/03-incidents/01-common-devops-scenarios.md)
+- [Stuck Guide](../02-reference/01-when-stuck.md)
+- [Concepts and Why](../02-reference/02-concepts-and-why.md)
+- [Incident Playbooks](../03-incidents/01-common-devops-scenarios.md)
