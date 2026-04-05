@@ -4,6 +4,10 @@ This is the straight path through the lab.
 
 Use this when you want to move from zero to full platform confidence without having to decide what to do next.
 
+Keep [Checkpoint Questions](02-checkpoint-questions.md) open if you want quick self-check prompts and verification cues at each phase.
+
+Keep [What You Just Proved](03-what-you-just-proved.md) open if you want each phase translated into "what changed, what it proved, what file to read next, and where to look first if it breaks."
+
 ## How to use this guide
 
 - stay inside `nix develop`
