@@ -15,7 +15,7 @@ Use this when you want to move from zero to full platform confidence without hav
 
 Read first:
 
-- [MacBook Setup](/Users/deanlofts/gits/devops-roundrobin/docs/00-macbook-setup.md)
+- [MacBook Setup](../00-macbook-setup.md)
 
 Run:
 
